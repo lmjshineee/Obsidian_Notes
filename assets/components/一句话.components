@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "id": "1253dc71-f991-49be-a73d-f38772ed3ff3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T14:13:28.300Z",
+      "updateAt": "2024-10-01T14:13:28.300Z",
+      "components": [
+        {
+          "componentId": "c1ffc810-8515-4bf3-a91d-9f2eb48558e1"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "c1ffc810-8515-4bf3-a91d-9f2eb48558e1",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T14:13:51.516Z",
+      "updateAt": "2024-10-01T14:13:51.516Z",
+      "title": "",
+      "description": "世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，故非有志者不能至也。",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "ce636d9a-c235-4c19-8e93-36b689c58c09",
+        "options": {
+          "commandId": "obsidian-focus-mode:toggle-super-focus-mode",
+          "commandName": "Focus Mode: Toggle Super Focus Mode (Active pane only)"
+        }
+      }
+    }
+  ],
+  "rootComponentId": "1253dc71-f991-49be-a73d-f38772ed3ff3"
+}

@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "108292b830a08ef1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6862f59cc83ef5c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c75a29c073925aad",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "77f037ef06b0c15e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a675d063a9a4d538",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcb32790da0f9d2c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1fce3d507f20b354",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2f4cbe4cc7a2e853",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d7472a4391b2c7bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "459c2a1e53dacbcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aef5e1164b43e8af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a95859d9b8f53419",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c871e2820b4d35c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "61aa61508b3dafec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "random-note:开始漫游笔记": false
+    }
+  },
+  "active": "c75a29c073925aad",
+  "lastOpenFiles": [
+    "assets/components/一句话.components",
+    "Home.md",
+    "assets/components/daily-check/2024-10-01_22-09-43_735.md",
+    "assets/components/daily-check/2024-10-01_22-09-39_259.md",
+    "assets/components/daily-check/2024-10-01_22-09-37_599.md",
+    "assets/components/daily-check",
+    "components/daily-check/2024-10-01_22-08-45_181.md",
+    "components/daily-check/2024-10-01_22-08-40_996.md",
+    "components/daily-check",
+    "components",
+    "assets/components/打卡.components",
+    "欢迎！.md",
+    "README.md",
+    "笔记/1-2. 数列极限/数列极限.md",
+    "408思维导图/数据结构/第二章 线性表.pdf",
+    "408笔记/Data-Structrue/1-linear-list.md",
+    "408笔记/README.md",
+    "408笔记/merge（工具程序，不要乱点，用前进去改路径！！）.py",
+    "408笔记/Operate-System/image/3-file-management-ex/1724749708508.png",
+    "408笔记/Operate-System/image/3-file-management-ex",
+    "408笔记/Operate-System/4-device-management-ex.md",
+    "408笔记/Operate-System/4-device-management.md",
+    "408笔记/Operate-System/image",
+    "408笔记/Operate-System/3-file-management.md",
+    "408笔记/Operate-System/3-file-management-ex.md",
+    "408笔记/Operate-System/2-memory-management.md",
+    "408笔记/Operate-System/2-memory-management-ex.md",
+    "408笔记/Operate-System/1-process-management.md",
+    "408笔记/Operate-System/1-process-management-ex.md",
+    "408笔记/Operate-System/0-summary.md",
+    "408笔记/Operate-System/0-summary-ex.md",
+    "408笔记/Operate-System",
+    "408笔记/Data-Structrue/9-sort.md",
+    "408笔记/Data-Structrue/9-sort-ex.md",
+    "408笔记/Data-Structrue/8-search.md",
+    "408笔记/Data-Structrue/8-search-ex.md",
+    "408笔记/Computer-Network/image/三种交换.png",
+    "408笔记/C/98 Assets/FlowGraph_Select.png",
+    "408笔记/C/98 Assets/FlowGraph_Overall.svg",
+    "408笔记/C/98 Assets/FlowGraph_Order.png",
+    "408笔记/C/98 Assets/FlowGraph_Loop.png",
+    "408笔记/C/98 Assets/FlowGraph_items.png",
+    "408笔记/98 Assets/FlowGraph_items.png",
+    "408笔记/98 Assets/FlowGraph_Select.png",
+    "408笔记/98 Assets/FlowGraph_Overall.svg"
+  ]
+}

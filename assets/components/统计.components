@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "id": "632cc505-b25b-4ee2-9c40-72b5802ad2a7",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:10:01.404Z",
+      "updateAt": "2024-10-01T13:10:01.404Z",
+      "components": [
+        {
+          "componentId": "b7a87d66-ccd8-4ec1-a6b4-4e23a6b1a003"
+        },
+        {
+          "componentId": "b6d8ce27-55b0-4e58-b12f-ca0f95d438e1"
+        },
+        {
+          "componentId": "1cafaa52-0c53-4c41-8266-f6375912bc36"
+        },
+        {
+          "componentId": "3f1c7e83-7451-4694-b1a5-b77f8de9bb2e"
+        },
+        {
+          "componentId": "16c31de2-527d-42ff-bf88-5663d0a26f8c"
+        },
+        {
+          "componentId": "5166d334-74a2-4c48-bdf9-a14704d4b11b"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "b7a87d66-ccd8-4ec1-a6b4-4e23a6b1a003",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "数学",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:10:09.745Z",
+      "updateAt": "2024-10-01T13:10:09.745Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "showGrid": false
+      },
+      "filter": {
+        "id": "9e28b290-3cf5-4fda-93d8-e1d09ebd7589",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "ff85b3ae-24e1-48f6-8daa-525b0da048cd",
+            "type": "filter",
+            "operator": "contains",
+            "property": "属性",
+            "value": "目录",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "99373456-fccc-4ea7-bafa-eff80cf6b384",
+            "property": "${file.basename}",
+            "direction": "asc"
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "笔记"
+      }
+    },
+    {
+      "id": "b6d8ce27-55b0-4e58-b12f-ca0f95d438e1",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "重要",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:12:27.474Z",
+      "updateAt": "2024-10-01T13:12:27.474Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "showGrid": false
+      },
+      "filter": {
+        "id": "9e28b290-3cf5-4fda-93d8-e1d09ebd7589",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "d6412b32-77c5-4bd7-90c9-a0013946cf6e",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "重要",
+            "conditions": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "1cafaa52-0c53-4c41-8266-f6375912bc36",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "408",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:30:15.734Z",
+      "updateAt": "2024-10-01T13:30:15.734Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "be4e65ce-093b-4253-a40b-19b13d29550b",
+          "name": "408笔记/C",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "5b570166-3f35-4a3d-85f6-3ac5466e1189",
+          "name": "408笔记/Data-Structrue",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "0282ee93-9197-4ad7-a8fc-ee5a8cfb3c8e",
+          "name": "408笔记/Operate-System",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "4f3d5d35-23e5-4358-8b25-8b81ecc01ae6",
+          "name": "408笔记/Computer-Organization",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "9d5dd5c3-5833-46ea-b49b-1515c3791511",
+          "name": "408笔记/Computer-Network",
+          "items": [],
+          "collapsed": false
+        }
+      ],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "showGrid": false
+      },
+      "filter": {
+        "id": "9e28b290-3cf5-4fda-93d8-e1d09ebd7589",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "e80f429d-1c16-45ba-aa77-2287065bc486",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "408笔记",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "${file.parent}",
+      "loadLimitPerPage": 10
+    },
+    {
+      "id": "3f1c7e83-7451-4694-b1a5-b77f8de9bb2e",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "数学PDF",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:39:19.577Z",
+      "updateAt": "2024-10-01T13:39:19.577Z",
+      "attachmentSource": "InSpecifiedFolder",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "pdf"
+      ],
+      "specifiedFilePath": "数学pdf",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": "数学pdf"
+    },
+    {
+      "id": "16c31de2-527d-42ff-bf88-5663d0a26f8c",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "408PDF",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:40:36.143Z",
+      "updateAt": "2024-10-01T13:40:36.143Z",
+      "attachmentSource": "InSpecifiedFolder",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "pdf"
+      ],
+      "specifiedFilePath": "408思维导图",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": "408pdf"
+    },
+    {
+      "id": "5166d334-74a2-4c48-bdf9-a14704d4b11b",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:42:36.883Z",
+      "updateAt": "2024-10-01T13:42:36.883Z",
+      "viewType": "kanban",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "showGrid": false
+      },
+      "filter": {
+        "id": "9e28b290-3cf5-4fda-93d8-e1d09ebd7589",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "e724d024-e86a-4fca-ab1e-6bbbb578cc1b",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": null,
+            "conditions": []
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "632cc505-b25b-4ee2-9c40-72b5802ad2a7"
+}

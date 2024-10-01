@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "id": "525a4ecc-38ee-407b-988c-e57d395df068",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T14:07:36.108Z",
+      "updateAt": "2024-10-01T14:07:36.108Z",
+      "components": [
+        {
+          "componentId": "c94a3988-213d-4198-bfc4-dffaa9183edb"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "c94a3988-213d-4198-bfc4-dffaa9183edb",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-10-01T14:07:44.345Z",
+      "updateAt": "2024-10-01T14:07:44.345Z",
+      "tasks": [
+        {
+          "id": "46ae1feb-7c14-4be7-93ce-0c5b7daffc48",
+          "name": "数学",
+          "options": {}
+        },
+        {
+          "id": "4522d8ae-63b4-409f-8600-8f1fe8340d1f",
+          "name": "408",
+          "options": {}
+        },
+        {
+          "id": "8be3c715-00ad-43bd-850b-789f06b6a0cf",
+          "name": "政治",
+          "options": {}
+        },
+        {
+          "id": "35ccc1ca-3276-4c6d-a6fe-a3bd20b5390f",
+          "name": "英语",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "multiPage",
+      "folder": "assets/components/daily-check"
+    }
+  ],
+  "rootComponentId": "525a4ecc-38ee-407b-988c-e57d395df068"
+}

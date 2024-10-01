@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "id": "c0d826ae-c8fc-4ccd-8569-db1394c1dd37",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:26:04.196Z",
+      "updateAt": "2024-10-01T13:26:04.196Z",
+      "components": [
+        {
+          "componentId": "0a2b1d21-373b-4f24-b729-a66509a93065"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "0a2b1d21-373b-4f24-b729-a66509a93065",
+      "type": "countdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-01T13:26:11.505Z",
+      "updateAt": "2024-10-01T13:26:11.505Z",
+      "repeatType": "none",
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "showEndDateTime": true,
+      "endDayOfWeek": 0,
+      "endHour": 0,
+      "endMinute": 0,
+      "endSecond": 0,
+      "endYear": 2024,
+      "endMonth": 11,
+      "endDayOfMonth": 22,
+      "title": "考研",
+      "timeTextPattern": "dHms"
+    }
+  ],
+  "rootComponentId": "c0d826ae-c8fc-4ccd-8569-db1394c1dd37"
+}
