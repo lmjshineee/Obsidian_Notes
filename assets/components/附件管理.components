@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "id": "80442314-aabe-4c38-90a0-80579ccb46b4",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-06T12:40:54.101Z",
+      "updateAt": "2024-10-06T12:40:54.101Z",
+      "components": [
+        {
+          "componentId": "21d87eb3-6c7d-4f7c-9797-3bda468e8858"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "21d87eb3-6c7d-4f7c-9797-3bda468e8858",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-06T12:41:07.072Z",
+      "updateAt": "2024-10-06T12:41:07.072Z",
+      "components": [
+        {
+          "componentId": "e4e9f68a-f158-4e62-921c-94223e89945f"
+        },
+        {
+          "componentId": "22707046-aecd-48f3-b1b6-9479edfd5ebb"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "e4e9f68a-f158-4e62-921c-94223e89945f",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "图片",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-06T12:41:16.041Z",
+      "updateAt": "2024-10-06T12:41:16.041Z",
+      "attachmentSource": "All",
+      "attachmentType": "Image",
+      "fileExensions": [],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "22707046-aecd-48f3-b1b6-9479edfd5ebb",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "组件",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-06T12:50:17.761Z",
+      "updateAt": "2024-10-06T12:50:17.761Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "components"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "createTime",
+      "sortDirection": "desc"
+    }
+  ],
+  "rootComponentId": "80442314-aabe-4c38-90a0-80579ccb46b4"
+}

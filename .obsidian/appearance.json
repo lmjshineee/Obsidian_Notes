@@ -1,9 +1,12 @@
 {
-  "accentColor": "",
-  "cssTheme": "AnuPpuccin",
+  "accentColor": "#9eaaf5",
+  "cssTheme": "Border",
   "theme": "system",
   "textFontFamily": "霞鹜文楷",
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "monospaceFontFamily": "JetBrains Mono",
-  "interfaceFontFamily": "霞鹜文楷"
+  "interfaceFontFamily": "霞鹜文楷",
+  "enabledCssSnippets": [
+    "hyphenation-and-justification"
+  ]
 }

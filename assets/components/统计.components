@@ -12,6 +12,9 @@
       "updateAt": "2024-10-01T13:10:01.404Z",
       "components": [
         {
+          "componentId": "83c4d41c-e62a-409f-9457-1cc28ee15c00"
+        },
+        {
           "componentId": "b7a87d66-ccd8-4ec1-a6b4-4e23a6b1a003"
         },
         {
@@ -21,16 +24,17 @@
           "componentId": "1cafaa52-0c53-4c41-8266-f6375912bc36"
         },
         {
-          "componentId": "3f1c7e83-7451-4694-b1a5-b77f8de9bb2e"
-        },
-        {
           "componentId": "16c31de2-527d-42ff-bf88-5663d0a26f8c"
         },
         {
           "componentId": "5166d334-74a2-4c48-bdf9-a14704d4b11b"
+        },
+        {
+          "componentId": "fc12438a-5f2e-4c53-9a6a-f4323edd7f3e"
         }
       ],
-      "layoutType": "tab"
+      "layoutType": "tab",
+      "activeComponentId": "83c4d41c-e62a-409f-9457-1cc28ee15c00"
     },
     {
       "id": "b7a87d66-ccd8-4ec1-a6b4-4e23a6b1a003",
@@ -71,9 +75,11 @@
           {
             "id": "ff85b3ae-24e1-48f6-8daa-525b0da048cd",
             "type": "filter",
-            "operator": "contains",
+            "operator": "contains_any",
             "property": "属性",
-            "value": "目录",
+            "value": [
+              "目录"
+            ],
             "conditions": []
           }
         ]
@@ -89,7 +95,8 @@
       },
       "newPageLocation": {
         "location": "笔记"
-      }
+      },
+      "groupBy": "属性"
     },
     {
       "id": "b6d8ce27-55b0-4e58-b12f-ca0f95d438e1",
@@ -132,7 +139,7 @@
             "type": "filter",
             "operator": "contains",
             "property": "tags",
-            "value": "重要",
+            "value": "困难",
             "conditions": []
           }
         ]
@@ -219,26 +226,6 @@
       "loadLimitPerPage": 10
     },
     {
-      "id": "3f1c7e83-7451-4694-b1a5-b77f8de9bb2e",
-      "type": "attachments",
-      "titleAlign": "center",
-      "tabTitle": "数学PDF",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-10-01T13:39:19.577Z",
-      "updateAt": "2024-10-01T13:39:19.577Z",
-      "attachmentSource": "InSpecifiedFolder",
-      "attachmentType": "Customize",
-      "fileExensions": [
-        "pdf"
-      ],
-      "specifiedFilePath": "数学pdf",
-      "sortField": "default",
-      "sortDirection": "asc",
-      "title": "数学pdf"
-    },
-    {
       "id": "16c31de2-527d-42ff-bf88-5663d0a26f8c",
       "type": "attachments",
       "titleAlign": "center",
@@ -260,16 +247,35 @@
     },
     {
       "id": "5166d334-74a2-4c48-bdf9-a14704d4b11b",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "数学PDF",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-02T15:10:29.196Z",
+      "updateAt": "2024-10-02T15:10:29.196Z",
+      "attachmentSource": "InSpecifiedFolder",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "pdf"
+      ],
+      "specifiedFilePath": "数学pdf",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "fc12438a-5f2e-4c53-9a6a-f4323edd7f3e",
       "type": "dynamicDataView",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "日记",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
-      "createAt": "2024-10-01T13:42:36.883Z",
-      "updateAt": "2024-10-01T13:42:36.883Z",
-      "viewType": "kanban",
-      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "createAt": "2024-10-10T11:53:52.307Z",
+      "updateAt": "2024-10-10T11:53:52.307Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYY-MM-DD}}",
       "properties": [
         {
           "id": "__componentsTitleProperty_0x7c00",
@@ -290,20 +296,89 @@
         "showGrid": false
       },
       "filter": {
-        "id": "9e28b290-3cf5-4fda-93d8-e1d09ebd7589",
+        "id": "c89dea9c-98a3-4239-9e55-144fda1b12d5",
         "type": "group",
         "operator": "and",
         "conditions": [
           {
-            "id": "e724d024-e86a-4fca-ab1e-6bbbb578cc1b",
+            "id": "8e526275-3ccf-4f07-9d27-a05f5968526c",
             "type": "filter",
             "operator": "contains",
-            "property": "${file.tags}",
-            "value": null,
+            "property": "tags",
+            "value": "journal",
+            "conditions": []
+          },
+          {
+            "id": "b480ba87-09f7-422e-b416-a3fd979ca975",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "Tasks",
             "conditions": []
           }
         ]
+      },
+      "newPageLocation": {
+        "location": "Tasks"
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "f8c7004f-9846-42e3-9376-a2cf917c4616",
+            "property": "${file.basename}",
+            "direction": "desc"
+          }
+        ]
       }
+    },
+    {
+      "id": "83c4d41c-e62a-409f-9457-1cc28ee15c00",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "周历",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-10-13T13:23:33.566Z",
+      "updateAt": "2024-10-13T13:23:33.566Z",
+      "viewType": "calendar",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
+        "items": [],
+        "cover": {
+          "type": "pageContent",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape"
+        },
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600,
+        "dateProperty": "${file.ctime}",
+        "calendarViewType": "week",
+        "cardColorFrom": "default",
+        "showLunar": true
+      },
+      "loadLimitPerPage": ""
     }
   ],
   "rootComponentId": "632cc505-b25b-4ee2-9c40-72b5802ad2a7"

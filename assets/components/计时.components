@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "id": "449a691d-5ae9-46be-914d-7760893d66b8",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-03T02:37:59.960Z",
+      "updateAt": "2024-10-03T02:37:59.961Z",
+      "components": [
+        {
+          "componentId": "89b5605b-39d9-4c2b-a0cc-9f72e21b482d"
+        },
+        {
+          "componentId": "de1b0fcb-2233-471d-8ce7-eddd4bec359c"
+        },
+        {
+          "componentId": "ab47b54d-4733-4390-8071-9ee727696146"
+        },
+        {
+          "componentId": "b5cc486c-ccd9-49cf-ab2d-dde7ecdb7e4a"
+        }
+      ],
+      "layoutType": "tab",
+      "activeComponentId": "89b5605b-39d9-4c2b-a0cc-9f72e21b482d"
+    },
+    {
+      "id": "89b5605b-39d9-4c2b-a0cc-9f72e21b482d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "计时",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-03T02:52:01.585Z",
+      "updateAt": "2024-10-03T02:52:01.585Z",
+      "components": [
+        {
+          "componentId": "f9a61ab9-8337-48ac-83de-4ff807de3c7a"
+        },
+        {
+          "componentId": "a6fc7057-c1b8-498f-8b4d-ae8f7a6dd8a5"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "ab47b54d-4733-4390-8071-9ee727696146",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "本周",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-03T02:38:54.006Z",
+      "updateAt": "2024-10-03T02:38:54.006Z",
+      "maxHeight": 529,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "```toggl\nSUMMARY PAST 7 DAYS\n```"
+    },
+    {
+      "id": "de1b0fcb-2233-471d-8ce7-eddd4bec359c",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "今天",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-03T02:41:26.132Z",
+      "updateAt": "2024-10-03T02:41:26.132Z",
+      "maxHeight": -1,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "```toggl\nLIST TODAY \nGROUP BY PROJECT\nSORT DESC\n```"
+    },
+    {
+      "id": "f9a61ab9-8337-48ac-83de-4ff807de3c7a",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-03T02:52:07.184Z",
+      "updateAt": "2024-10-03T02:52:07.184Z",
+      "title": "开始计时",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "012f815b-7afc-4c8f-9b04-00b501c45867",
+        "options": {
+          "commandId": "obsidian-toggl-integration:start-timer",
+          "commandName": "Toggl Track: Start Toggl Timer"
+        }
+      },
+      "icon": "AlarmClockPlus"
+    },
+    {
+      "id": "a6fc7057-c1b8-498f-8b4d-ae8f7a6dd8a5",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-03T02:52:49.190Z",
+      "updateAt": "2024-10-03T02:52:49.190Z",
+      "title": "结束计时",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "31ccae6e-bd12-4442-aeef-304900bb2ee8",
+        "options": {
+          "commandId": "obsidian-toggl-integration:stop-timer",
+          "commandName": "Toggl Track: Stop Toggl Timer"
+        }
+      },
+      "icon": "AlarmClockCheck"
+    },
+    {
+      "id": "b5cc486c-ccd9-49cf-ab2d-dde7ecdb7e4a",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "TodoList",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-12T14:52:57.303Z",
+      "updateAt": "2024-10-12T14:52:57.303Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "```tasks\nsort by status.type\nlimit 8\nhide created date\nhide due date\nhide postpone button\nhide backlink\nhide task count\nhide edit button\n```"
+    }
+  ],
+  "rootComponentId": "449a691d-5ae9-46be-914d-7760893d66b8"
+}

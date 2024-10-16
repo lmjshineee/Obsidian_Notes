@@ -8869,6 +8869,7 @@ BLh
 ByN
 BwR
 BHQ
+BIOS
 Kb
 Kngnc
 Kh
@@ -10015,6 +10016,7 @@ nQm
 nOc
 npPN
 ndx
+nbsp
 Mn
 MOO
 Mm
@@ -11826,6 +11828,7 @@ LxF
 LLH
 LGW
 LcTCH
+Linux
 üY
 üy
 üK

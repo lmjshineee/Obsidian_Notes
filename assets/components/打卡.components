@@ -35,7 +35,7 @@
         },
         {
           "id": "4522d8ae-63b4-409f-8600-8f1fe8340d1f",
-          "name": "408",
+          "name": "计科",
           "options": {}
         },
         {
@@ -49,7 +49,7 @@
           "options": {}
         }
       ],
-      "dataRecordType": "multiPage",
+      "dataRecordType": "journalProperty",
       "folder": "assets/components/daily-check"
     }
   ],

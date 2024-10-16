@@ -1,10 +1,19 @@
 [
   "quick-latex",
   "obsidian-completr",
-  "obsidian-git",
   "pdf-plus",
-  "components",
   "obsidian-style-settings",
-  "obsidian-focus-mode",
-  "dataview"
+  "dataview",
+  "pangu-go",
+  "cm-chs-patch",
+  "editing-toolbar",
+  "obsidian-toggl-integration",
+  "quickadd",
+  "obsidian-tasks-plugin",
+  "lapel",
+  "templater-obsidian",
+  "recent-files-obsidian",
+  "xmind-viewer",
+  "components",
+  "card-navigator"
 ]

@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "id": "98fd8412-b2d0-4dca-9c2a-4d386de47d46",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-12T07:05:58.556Z",
+      "updateAt": "2024-10-12T07:05:58.556Z",
+      "components": [
+        {
+          "componentId": "2138f11f-1d9b-4354-8a64-076d4824849b"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "2138f11f-1d9b-4354-8a64-076d4824849b",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-12T07:06:20.706Z",
+      "updateAt": "2024-10-12T07:06:20.706Z",
+      "title": "增加新短文",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "00fc87e2-a245-482f-b0d6-866ce286588d",
+        "options": {
+          "commandId": "quickadd:choice:d0266891-bf1c-45e4-9fdf-67e484d59a13",
+          "commandName": "QuickAdd: 英语短文"
+        }
+      }
+    }
+  ],
+  "rootComponentId": "98fd8412-b2d0-4dca-9c2a-4d386de47d46"
+}

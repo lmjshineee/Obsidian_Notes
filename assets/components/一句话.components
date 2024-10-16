@@ -35,8 +35,8 @@
         "type": "CallCommand",
         "id": "ce636d9a-c235-4c19-8e93-36b689c58c09",
         "options": {
-          "commandId": "obsidian-focus-mode:toggle-super-focus-mode",
-          "commandName": "Focus Mode: Toggle Super Focus Mode (Active pane only)"
+          "commandId": "graph:animate",
+          "commandName": "关系图谱: 播放关系图谱生长动画"
         }
       }
     }

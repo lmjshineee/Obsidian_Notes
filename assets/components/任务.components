@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "id": "a59a7a8f-a3c5-43d5-9f32-2bc4577ec389",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-05T02:46:52.292Z",
+      "updateAt": "2024-10-05T02:46:52.295Z",
+      "components": [
+        {
+          "componentId": "c7c718b2-9422-46b8-a9b5-be89241a4e0d"
+        },
+        {
+          "componentId": "0f4a4350-0f28-4e70-bc6d-92d74d4eb88a"
+        }
+      ],
+      "layoutType": "list"
+    },
+    {
+      "id": "c7c718b2-9422-46b8-a9b5-be89241a4e0d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-05T03:09:14.040Z",
+      "updateAt": "2024-10-05T03:09:14.040Z",
+      "components": [
+        {
+          "componentId": "8dca8410-3452-4ab7-9551-b4b0259e7d72"
+        },
+        {
+          "componentId": "0cfb2b8a-7198-4d56-be46-2bd35bd2f466"
+        },
+        {
+          "componentId": "6bf8a110-f361-4edb-99f3-b654735bdf98"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "8dca8410-3452-4ab7-9551-b4b0259e7d72",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-05T03:09:22.446Z",
+      "updateAt": "2024-10-05T03:09:22.446Z",
+      "title": "添加任务",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "1cddb330-9bed-471a-b73a-5cc7552680d8",
+        "options": {
+          "commandId": "quickadd:choice:9886c6cf-09fe-4e74-8802-a354cf903146",
+          "commandName": "QuickAdd: 任务"
+        }
+      },
+      "icon": "BookCheck"
+    },
+    {
+      "id": "0f4a4350-0f28-4e70-bc6d-92d74d4eb88a",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-05T04:01:24.921Z",
+      "updateAt": "2024-10-05T04:01:24.921Z",
+      "maxHeight": -1,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "```tasks\nnot done \ndue today\nsort by priority\n#根据优先级排序\n\nhide created date\nhide due date\nhide postpone button\nhide backlink\nhide task count\nhide edit button\n```"
+    },
+    {
+      "id": "6bf8a110-f361-4edb-99f3-b654735bdf98",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-10-05T03:20:28.151Z",
+      "updateAt": "2024-10-05T03:20:28.151Z",
+      "countValueAlign": "center",
+      "contentPrefix": "还有",
+      "contentSuffix": "个任务未完成",
+      "countType": "number",
+      "precision": "",
+      "query": {
+        "valueType": "task",
+        "value": 100,
+        "filter": {
+          "id": "ec03b915-09b0-43f1-af39-6cf73771c9a0",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "2bbdfe6e-0b43-4f88-9dec-a636638eb1ce",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.parent}",
+              "value": "Tasks",
+              "conditions": []
+            }
+          ]
+        },
+        "aggregationType": "uncompletedTasks"
+      },
+      "totalQuery": {
+        "valueType": "task",
+        "value": 100,
+        "filter": {
+          "id": "6cc228b9-3fa5-41b0-9eba-abcce725b9c5",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "aggregationType": "allTasks"
+      },
+      "title": ""
+    },
+    {
+      "id": "0cfb2b8a-7198-4d56-be46-2bd35bd2f466",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "记录",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-09T13:44:50.253Z",
+      "updateAt": "2024-10-09T13:44:50.253Z",
+      "title": "记录",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "26040c8e-6c59-454f-9585-538034f905ff",
+        "options": {
+          "commandId": "quickadd:choice:3c0827e8-0933-4f0c-a381-d7fea8bf2ccd",
+          "commandName": "QuickAdd: 记录"
+        }
+      }
+    }
+  ],
+  "rootComponentId": "a59a7a8f-a3c5-43d5-9f32-2bc4577ec389"
+}

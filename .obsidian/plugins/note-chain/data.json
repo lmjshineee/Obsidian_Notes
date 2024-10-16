@@ -1,0 +1,14 @@
+{
+  "PrevChain": "10",
+  "NextChain": "10",
+  "auto_notechain": false,
+  "refreshDataView": true,
+  "refreshTasks": true,
+  "isSortFileExplorer": true,
+  "isFolderFirst": true,
+  "suggesterNotesMode": "item_inlinks_outlinks",
+  "wordcout": true,
+  "wordcountxfolder": "",
+  "modal_default_width": 800,
+  "modal_default_height": 600
+}

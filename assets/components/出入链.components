@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "id": "dbdf728c-0376-4263-be98-42a2bc5dae84",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-09T14:54:15.387Z",
+      "updateAt": "2024-10-09T14:54:15.387Z",
+      "components": [
+        {
+          "componentId": "c6d82e49-5563-4ee1-b02d-4d1c79729f99"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "c6d82e49-5563-4ee1-b02d-4d1c79729f99",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-10-09T14:54:20.859Z",
+      "updateAt": "2024-10-09T14:54:20.859Z",
+      "query": "function generateLinkMap(dv, fileName) {\n    if (!fileName) {\n        fileName = dv.current().file.path;\n    }\n\n    let page = dv.page(fileName);\n    if (!page) {\n        dv.paragraph(`错误：未找到文件 \"${fileName}\"`);\n        return;\n    }\n\n    // 过滤掉图片链接\n    function isNotImage(path) {\n        return !path.toLowerCase().endsWith('.png') && \n               !path.toLowerCase().endsWith('.jpg') && \n               !path.toLowerCase().endsWith('.jpeg') && \n               !path.toLowerCase().endsWith('.gif') && \n               !path.toLowerCase().endsWith('.svg');\n    }\n\n    // 获取文件标题\n    function getFileTitle(file) {\n        return file.file.frontmatter.title || file.file.name;\n    }\n\n    // 获取出链\n    let outLinks = page.file.outlinks\n        .map(link => dv.page(link.path))\n        .filter(file => file && isNotImage(file.file.path));\n\n    // 获取入链（反向链接）\n    let inLinks = dv.pages()\n        .where(p => p.file.outlinks.map(l => l.path).includes(fileName))\n        .filter(file => isNotImage(file.file.path));\n\n    let mermaidCode = \"graph TD\\n\";\n\n    function safeNodeId(name) {\n        return name.replace(/[^a-zA-Z0-9]/g, \"_\");\n    }\n\n    let currentFileTitle = getFileTitle(page);\n    mermaidCode += `  ${safeNodeId(fileName)}[\"${currentFileTitle}\"]\\n`;\n\n    // 添加出链\n    outLinks.forEach(file => {\n        let linkTitle = getFileTitle(file);\n        mermaidCode += `  ${safeNodeId(fileName)} --> ${safeNodeId(file.file.path)}[\"${linkTitle}\"]\\n`;\n    });\n\n    // 添加入链（反向链接）\n    inLinks.forEach(file => {\n        let linkTitle = getFileTitle(file);\n        mermaidCode += `  ${safeNodeId(file.file.path)}[\"${linkTitle}\"] --> ${safeNodeId(fileName)}\\n`;\n    });\n\n    dv.paragraph(\"```mermaid\\n\" + mermaidCode + \"```\");\n\n    // 创建链接列表\n    let linkList = \"### 相关链接\\n\";\n    \n    if (outLinks.length > 0) {\n        linkList += \"#### 出链\\n\";\n        outLinks.forEach(file => {\n            linkList += `- [[${file.file.path}|${getFileTitle(file)}]]\\n`;\n        });\n    }\n    \n    if (inLinks.length > 0) {\n        linkList += \"#### 入链（反向链接）\\n\";\n        inLinks.forEach(file => {\n            linkList += `- [[${file.file.path}|${getFileTitle(file)}]]\\n`;\n        });\n    }\n\n    dv.paragraph(linkList);\n}\n\n// 获取当前文件名或使用自定义文件名\nconst fileName = '{{filename}}';\n\n// 生成链接图\ngenerateLinkMap(dv, fileName);",
+      "queryType": "dataviewjs",
+      "maxHeight": -1,
+      "dynamicParamComponents": [
+        {
+          "id": "67063bd0-d69e-487a-a676-268d4b000e6b",
+          "type": "propertyValueSuggestions",
+          "name": "filename",
+          "defaultValue": "Home",
+          "placeholder": "",
+          "fromProperty": "${file.basename}",
+          "label": "文件名"
+        }
+      ]
+    }
+  ],
+  "rootComponentId": "dbdf728c-0376-4263-be98-42a2bc5dae84"
+}
